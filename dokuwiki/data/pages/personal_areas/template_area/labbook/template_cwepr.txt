@@ -1,17 +1,16 @@
 ====== @@Date@@ ======
 
 ---- dataentry labbook ----
-type_hidden            : Labbook
+type_hidden            : Labbook_@@short@@
 date_hidden            : @@Date@@
 experiment_hidden      : @@Experiment@@
 sample                 : @@Sample|@@
-sampleno_sa            : @@Samplenumber|@@
+sampleno_sa_@@short@@            : @@Samplenumber|@@
 buffer                 : -
 temperature            : @@Temperature@@
-excitation             : @@Excitation@@
-spectrometer           : @@treprSpectrometer@@
-probehead_eprprobehead : @@treprProbehead@@
-purpose                : @@Purpose@@
+spectrometer           : @@cwepr-Spectrometer@@
+probehead_eprprobehead : @@cwepr-Probehead@@
+purpose                : -
 ----
 
 
@@ -46,9 +45,9 @@ purpose                : @@Purpose@@
 
 ===== Documentation =====
 
-<file "" data01.info>
+<file "" sa@@Samplenumber|@@-01.info>
 </file>
 
-<file "" data02.info>
+<file "" sa@@Samplenumber|@@-02.info>
 </file>
 

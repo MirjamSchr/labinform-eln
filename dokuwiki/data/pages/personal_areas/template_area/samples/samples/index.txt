@@ -6,7 +6,7 @@
 ===== Create new sample entry =====
 
 <form>
-Action template samples:samples:template_sample :samples:samples:@@No@@
+Action template :personal_areas:@@short@@:samples:samples:template_sample :personal_areas:@@short@@:samples:samples:@@No@@
 labels labels
 
 Fieldset      "New entry for samples"
@@ -14,13 +14,13 @@ hiddenautoinc "No"
 static        "Necessary fields"
 textbox       "Description"
 date          "Date"
-data_aliastextbox Batch _pagebatch 
+number        "Batch"
 static        "Optional fields"
 data_aliastextbox Cell _pagecell !
 data_aliastextbox Tube _pagetube !
 data_aliastextbox Substrate _pagesubstrate !
 textbox       "Concentration" !
-data_aliastextbox "Measured" _bool ! =false
+yesno             "Measured" ="yes" "!no"
 data_aliastextbox "State" _state ! =exists
 data_aliastextbox "Storage" _storage ! =RT
 thanks        "Thanks for your entry."
@@ -32,11 +32,11 @@ submit        "Create entry"
 
 
 ---- datatable ----
-cols       : ID, %pageid%, Batch_pagebatch, Substrate_pagesubstrate, Date, Measured, State, Storage
+cols       : ID, %%pageid%%, Batch_pagebatch_@@short@@, Substrate_pagesubstrate, Date, Measured, State, Storage
 headers    : ID, Description, Batch, Substrate, Date, Measured, State, Storage
-filter     : type~Samples
-filter     : %pageid%!~*template*
-sort       : ^%pageid%
+filter     : type~Samples_@@short@@
+filter     : %%pageid%%!~*template*
+sort       : ^%%pageid%%
 dynfilters : 1
 ----
 

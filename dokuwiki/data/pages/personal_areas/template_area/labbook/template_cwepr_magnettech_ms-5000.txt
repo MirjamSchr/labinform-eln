@@ -5,7 +5,7 @@ type_hidden            : Labbook
 date_hidden            : @@Date@@
 experiment_hidden      : @@Experiment@@
 sample                 : @@Sample|@@
-sampleno_sa            : @@Samplenumber|@@
+sampleno_sa_@@short@@           : @@Samplenumber|@@
 buffer                 : -
 temperature            : @@Temperature@@
 spectrometer           : @@cweprSpectrometer@@
@@ -73,44 +73,44 @@ Variable parameter:     field
 Increment:              x mT
 
 SPECTROMETER
-Model:                  Bruker ESP380
-Software:               ESP380E
+Model:                  @@cweprSpectrometer@@
+Software:               ESRStudio 1.74.2
 
 MAGNETIC FIELD
 Field probe type:       Hall 
-Field probe model:      xxx 
+Field probe model:      builtin 
 Start:                  xxx.x mT
 Stop:                   xxx.x mT
 Step:                   xxxx/xx mT
 Sequence:               up
-Controller:             Bruker 032M
-Power supply:           Bruker ER 083 CS
+Controller:             builtin
+Power supply:           builtin
 
 BRIDGE
-Model:                  Bruker ER 046 MRT
-Controller:             Bruker 
+Model:                  builtin
+Controller:             builtin
 Attenuation:            xx dB
 Power:                  0.xxxx mW
-Detection:              diode
-Frequency counter:      Bruker
+Detection:              mixer
+Frequency counter:      builtin
 MW frequency:           9.xxxxx GHz
 Q value:                xxxx
 
 SIGNAL CHANNEL
-Model:                  Bruker ER 023M
-Modulation amplifier:   Bruker
+Model:                  builtin
+Modulation amplifier:   builtin
 Accumulations:          x
 Modulation frequency:   100 kHz
 Modulation amplitude:   x.y mT
-Receiver gain:          xx dB
+Receiver gain:          0 
 Offset:                 0.0
-Conversion time:        xx.xx ms
-Time constant:          xx.xx ms
-Phase:                  0 deg
+Conversion time:        0.00 
+Time constant:          0.00 
+Phase:                  0.00 deg
 
 PROBEHEAD
-Type:                   
-Model:                  @@cweprProbehead@@
+Type:                   rectangular TE102
+Model:                  builtin
 Coupling:               critical
 
 TEMPERATURE

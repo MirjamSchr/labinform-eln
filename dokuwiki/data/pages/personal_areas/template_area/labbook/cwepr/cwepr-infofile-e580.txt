@@ -1,66 +1,19 @@
-====== @@Date@@ ======
-
----- dataentry labbook ----
-type_hidden            : Labbook
-date_hidden            : @@Date@@
-experiment_hidden      : @@Experiment@@
-sample                 : @@Sample|@@
-sampleno_sa            : @@Samplenumber|@@
-buffer                 : -
-temperature            : @@Temperature@@
-spectrometer           : @@cweprSpectrometer@@
-probehead_eprprobehead : @@cweprProbehead@@
-purpose                : @@Purpose@@
-----
-
-
-
-
-===== Protocol =====
-
-  ; xx:xx 
-  : ...
-  ; xx:xx 
-  : ...
-
-
-===== Comments =====
-
-...
-
-
-===== Analysis =====
-
-...
- 
-<figure>
-<caption>**... .** ...</caption>
-</figure>
-
-
-===== Further plans =====
-
-...
-
-
-===== Documentation =====
-
-<file "" sa@@Samplenumber|@@-01.info>
+<file "" saXX-01.info>
 cwEPR Info file - v. 0.1.4 (2020-01-21)
 
 GENERAL
-Filename:               Sa@@Samplenumber|@@-01
-Date start:             @@Date@@
-Date end:               @@Date@@
-Time start:             %H:%M:00
-Time end:               %H:xx:00
-Operator:               @NAME@
+Filename:               SaXX-01
+Date start:             YYYY-MM-DD
+Date end:               YYYY-MM-DD
+Time start:             HH:MM:00
+Time end:               HH:MM:00
+Operator:               
 Label:                  
-Purpose:                @@Purpose@@
+Purpose:                
 
 SAMPLE
-Name:                   @@Sample|@@
-ID:                     @@Samplenumber|@@
+Name:                   
+ID:                     
 Description:            
 Solvent:                
 Preparation:            
@@ -110,11 +63,11 @@ Phase:                  0 deg
 
 PROBEHEAD
 Type:                   
-Model:                  @@cweprProbehead@@
+Model:                  
 Coupling:               critical
 
 TEMPERATURE
-Temperature:            @@Temperature@@ K
+Temperature:            xxx K
 Controller:             N/A
 Cryostat:               N/A
 Cryogen:                N/A

@@ -1,0 +1,22 @@
+====== Personal Areas ======
+
+Every group member has his or her own area with samples and a labbook.
+
+
+===== Create personal area for new member =====
+
+<form>
+Action template :personal_areas:template_area: :personal_areas:@@short@@
+labels labels
+
+Fieldset      "New personal Area"
+textbox       "Area-Name"
+textbox       "short"
+
+thanks        "Thanks for your entry."
+submit        "Create entry"
+</form>
+
+
+{{indexmenu>:personal_areas#2|js#human.png tsort nsort navbar}}
+

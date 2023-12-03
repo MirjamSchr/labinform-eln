@@ -1,0 +1,5 @@
+===== Subareas =====
+
+[[:personal_areas:_@@short@@:labbook:cwepr:|{{fa>level-up}}]] [[:personal_areas:_@@short@@:labbook:cwepr:|cwEPR]]\\
+[[:personal_areas:_@@short@@:labbook:uvvis:|{{fa>lightbulb-o}}]] [[:personal_areas:_@@short@@:labbook:uvvis:|UV/vis]]
+

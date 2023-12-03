@@ -1,0 +1,7 @@
+[[:personal_areas:@@short@@:samples:batches:|{{fa>archive}}]] [[:personal_areas:@@short@@:samples:batches:|Batches]]\\
+[[:personal_areas:@@short@@:samples:samples:|{{fa>flask}}]] [[:personal_areas:@@short@@:samples:samples:|Samples]]\\
+[[:personal_areas:@@short@@:samples:syntheses:|{{fa>industry}}]] [[:personal_areas:@@short@@:samples:syntheses:|Syntheses]]\\
+
+[[:samples:cells:|{{fa>square}}]] [[:samples:cells:|Cells]]\\
+[[:samples:tubes:|{{fa>circle}}]] [[:samples:tubes:|Tubes]]\\
+[[:samples:substrates:|{{fa>bars}}]] [[:samples:substrates:|Substrates]]

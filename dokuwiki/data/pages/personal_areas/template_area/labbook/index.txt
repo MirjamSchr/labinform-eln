@@ -1,0 +1,48 @@
+~~NOTOC~~
+
+{{fa>book?48&align=right}} 
+
+====== Lab Notebook ======
+
+
+
+===== Create new entry =====
+
+<form>
+Action template personal_areas:@@short@@:labbook:template_"@@Experiment@@_@@cweprSpectrometer|@@_@@treprSpectrometer|@@" personal_areas:@@short@@:labbook:@@Experiment@@:<noreplace>@DATE(@@Date@@,%%Y)@:@DATE(@@Date@@,%%m)@</noreplace>:@@id@@
+Thanks "Thanks for submitting your valuable data."
+labels labels
+
+Fieldset          "General parameters for the measurement"
+hiddenautoinc     "id"
+date              "Date"
+textbox           "Sample" !
+number            "Samplenumber" !
+textbox           "Temperature"
+data_aliastextbox "Experiment" _experiment
+textbox           "Purpose"
+
+Fieldset "TREPR experiment parameters" "Experiment" "TREPR"
+textbox           "Excitation"
+data_aliastextbox "treprSpectrometer" _eprspectrometer ="Bruker ESP"
+data_aliastextbox "treprProbehead" _eprprobehead ="Bruker ER4118X-MD5"
+
+Fieldset "cwEPR experiment parameters" "Experiment" "cwEPR"
+data_aliastextbox "cweprSpectrometer" _eprspectrometer ="Bruker EMX"
+data_aliastextbox "cweprProbehead" _eprprobehead ="Bruker 4119HS-W1"
+
+Fieldset "Submit form"
+thanks            "Thanks for the entry."
+submit            "Create entry"
+</form>
+
+
+===== Metadata during data acquisition: Infofiles =====
+
+Data without corresponding metadata are (mostly) useless, and usually, not all relevant metadata are recorded by the spectrometer control software. At least, the purpose is usually not recorded, but rather often, other crucial parameters are missing as well. Therefore, tools allowing to record (complete) metadata during data acquisition are necessary. One such tool is the Infofile. For details, see [[https://github.com/tillbiskup/infofile]].
+
+For each experiment performed, such an Infofile with the important parameters for the measurement is created and is saved together with the raw data and read in by the processing routines.
+
+  * [[.:infofiles:|Templates for Infofiles (downloadable)]]
+
+

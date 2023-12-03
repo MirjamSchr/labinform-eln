@@ -13,7 +13,7 @@
 
 ===== Areas =====
 
-[[:samples:|{{fa>flask}}]] [[:samples:|Samples]]\\
-[[:labbook:|{{fa>book}}]] [[:labbook:|Labbook]]\\
-[[:calculations:|{{fa>server}}]] [[:calculations:|Calculations]]
+[[:samples:|{{fa>flask}}]] [[:samples:|General Samples]]\\
+[[:labbook:|{{fa>book}}]] [[:labbook:|General Labbook]]\\
 
+[[:personal_areas:|{{fa>users}}]] [[:personal_areas:|]]\\

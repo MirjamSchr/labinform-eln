@@ -1,0 +1,33 @@
+====== @@Description@@ ======
+
+---- dataentry sample ----
+type_hidden             : Samples_@@short@@ # 
+ID                      : @@No@@
+Description             : @@Description@@ # 
+Date                    : @@Date@@ # 
+Batch_pagebatch_@@short@@      : @@Batch@@ # 
+Substrate_pagesubstrate : @@Substrate|@@ #
+Cell_pagecell           : @@Cell|@@ #
+Tube_pagetube           : @@Tube|@@ #
+Concentration           : @@Concentration@@ #
+Measured                : @@Measured@@ # 
+State_state             : @@State@@ #
+Storage_storage         : @@Storage@@ #
+----
+
+
+
+===== Comments =====
+
+
+===== Measurements =====
+
+---- datatable ----
+cols    : %%pageid%%, experiment, purpose
+headers : ID, Experiment, Purpose
+filter  : type~Labbook_@@short@@
+filter  : %%pageid%%!~*template*
+filter  : sampleno~@@No@@
+sort    : ^pageid
+----
+

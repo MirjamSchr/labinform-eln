@@ -1,0 +1,44 @@
+{{fa>archive?48&align=right}} ====== Batches ======
+
+//A "batch" is always the starting point of a sample.//
+
+
+===== Create new batch entry =====
+
+<form>
+Action template :personal_areas:@@short@@:samples:batches:template_batch :personal_areas:@@short@@:samples:batches:@@No@@
+labels labels
+
+Fieldset      "New entry for batches"
+hiddenautoinc "No"
+static        "Necessary fields"
+textbox       "Name"
+textbox       "Substance"
+date          "Date"
+textbox       "Supply source"
+static              "Optional fields"
+textbox       "Code" !
+textbox       "Solvent" !
+data_aliastextbox   "State" _state ! =exists
+data_aliastextbox   "Storage" _storage ! =-70°C
+number        "Batch" !
+thanks        "Thanks for your entry."
+submit        "Create entry"
+</form>
+
+
+===== List of Batches =====
+
+
+---- datatable ----
+cols       : ID, %%pageid%%, Substance, Date, Code, Solvent, State, Storage
+headers    : ID, Details, Substance, Date, Code, Solvent, State, Storage
+filter     : type~Batches_@@short@@
+filter     : %%pageid%%!~*template*
+sort       : ^%%pageid%%
+dynfilters : 1
+----
+
+
+
+
