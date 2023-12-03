@@ -46,39 +46,5 @@
 </WRAP>
 
 
-<WRAP group centeralign>
-
-<WRAP third column>
-<WRAP box round>
-[[.:geraete:|{{fa>balance-scale?48}}]]
-
-===== Großgeräte / Spektrometer =====
-
-[[.:geraete:|Großgeräte / Spektrometer]]
-</WRAP>
-</WRAP>
-
-<WRAP third column>
-<WRAP box round>
-[[.:wissen:|{{fa>institution?48}}]]
-
-===== Wissen =====
-
-[[.:wissen:|zusammengesammeltes Wissen (knowledge base)]]
-</WRAP>
-</WRAP>
-
-
-<WRAP third column>
-<WRAP box round>
-[[.:literatur:|{{fa>leanpub?48}}]]
-
-===== Literatur =====
-
-[[.:literatur:|Übersicht über die Literatur zum Forschungsgebiet]]
-</WRAP>
-</WRAP>
-
-</WRAP>
 </WRAP>
 
