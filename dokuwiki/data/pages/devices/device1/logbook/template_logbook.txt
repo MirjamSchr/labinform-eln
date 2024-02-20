@@ -1,0 +1,18 @@
+~~NOTOC~~
+====== @@Date@@ - @@Problem@@ ======
+
+---- dataentry logbook ----
+type_hidden            : logbook-epr
+date_hidden            : @@Date@@
+user                   : @NAME@
+device_device-epr      : @@Device@@
+category_log_category  : @@Category@@ #
+problem                : @@Problem@@ #
+solution               : @@Solution|@@ #
+----
+
+===== Ereignis =====
+
+Ausführlichere Beschereibung was passiert war und wie man zur Lösung kam.
+
+

@@ -4,7 +4,7 @@
 //Own synthesis of a substance//
 
 
-<WRAP center round important 100%>
+<WRAP center round important 100%%>
 Syntheses need to be designed and decided upon how to include them here in the LabInform ELN. Some key concepts may include:
 
   * One synthesis will be described on one page

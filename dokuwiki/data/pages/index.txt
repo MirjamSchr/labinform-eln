@@ -9,42 +9,39 @@
 
 ++++
 
-{{indexmenu>#1}}
-
-
 
 
 <WRAP group centeralign>
+
+<WRAP third column>
+<WRAP box round>
+[[.:personal_areas:|{{fa>users?48}}]] 
+
+===== Personal Areas =====
+
+[[.:personal_areas:|Personal Areas of the members of the group]]
+</WRAP>
+</WRAP>
+
+<WRAP third column>
+<WRAP box round>
+[[.:devices:|{{fa>balance-scale?48}}]]
+
+===== Devices =====
+
+[[.:devices:|Contains logbooks and manuals]]
+</WRAP>
+</WRAP>
+
 <WRAP third column>
 <WRAP box round>
 [[.:samples:|{{fa>flask?48}}]]
 
-===== Samples =====
+===== General Samples =====
 
-[[.:samples:|Samples, Syntheses, sample containers]]
+[[.:samples:|Samples and sample containers of the whole AK]]
 </WRAP>
 </WRAP>
-
-<WRAP third column>
-<WRAP box round>
-[[.:labbook:|{{fa>book?48}}]]
-
-===== Labbook =====
-
-[[.:labbook:|Electronic Lab Notebook (ELN) for experiments]]
-</WRAP>
-</WRAP>
-
-<WRAP third column>
-<WRAP box round>
-[[.:calculations:|{{fa>server?48}}]]
-
-===== Calculations =====
-
-[[.:calculations:|(Quantum chemical) Calculations]]
-</WRAP>
-</WRAP>
-
 
 </WRAP>
 

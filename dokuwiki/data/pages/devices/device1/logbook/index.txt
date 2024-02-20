@@ -1,0 +1,29 @@
+====== EPR-Logbook  ======
+
+
+<form>
+Action template devices:device1:logbook:template_logbook :devices:device1:logbook:@DATE(@@Date@@,%%Y)@:@@No@@
+labels labels
+
+Fieldset          "New entry"
+hiddenautoinc     "No"
+date              "Date"
+data_aliastextbox "Device" _device !
+data_aliastextbox "Category" _log_category !
+textbox           "Problem"
+textbox           "Solution" !
+
+thanks            "Thanks"
+submit            "Submit"
+</form>
+
+
+---- datatable ----
+cols       : %pageid%, device, category,  problem, solution
+headers    : Date, Device, Category, Problem, Solution
+filter     : type~logbook-device
+filter     : %pageid%!~*template*
+sort       : ^date
+dynfilters : 1
+----
+

@@ -3,6 +3,24 @@
 Every group member has his or her own area with samples and a labbook.
 
 
+<WRAP group centeralign>
+
+<WRAP third column>
+<WRAP box round>
+[[.:personal_areas:user 1|{{fa>users?48}}]] 
+
+===== User 1 =====
+
+[[.:personal_areas:user1|Example Blob of User 1]]
+</WRAP>
+</WRAP>
+
+</WRAP>
+
+
+
+++++ New member? |
+
 ===== Create personal area for new member =====
 
 <form>
@@ -17,6 +35,8 @@ thanks        "Thanks for your entry."
 submit        "Create entry"
 </form>
 
+++++
 
-{{indexmenu>:personal_areas#2|js#human.png tsort nsort navbar}}
 
+
+{{indexmenu>:personal_areas#1|js#doku2}}

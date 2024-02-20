@@ -9,22 +9,22 @@
 Action template :personal_areas:@@short@@:samples:samples:template_sample :personal_areas:@@short@@:samples:samples:@@No@@
 labels labels
 
-Fieldset      "New entry for samples"
-hiddenautoinc "No"
-static        "Necessary fields"
-textbox       "Description"
-date          "Date"
-number        "Batch"
-static        "Optional fields"
-data_aliastextbox Cell _pagecell !
-data_aliastextbox Tube _pagetube !
-data_aliastextbox Substrate _pagesubstrate !
-textbox       "Concentration" !
-yesno             "Measured" ="yes" "!no"
+Fieldset          "New entry for samples"
+hiddenautoinc     "No"
+static            "Necessary fields"
+textbox           "Description"
+date              "Date"
+data_aliastextbox "Batch" _pagebatch_@@short@@
+static            "Optional fields"
+data_aliastextbox "Container" _pagecontainer !
+data_aliastextbox "Cap" _sacap !
+data_aliastextbox "Substrate" _pagesubstrate !
+textbox           "Concentration" !
+data_aliastextbox "Measured" _bool ! =false
 data_aliastextbox "State" _state ! =exists
 data_aliastextbox "Storage" _storage ! =RT
-thanks        "Thanks for your entry."
-submit        "Create entry"
+thanks            "Thanks for your entry."
+submit            "Create entry"
 </form>
 
 
@@ -32,8 +32,9 @@ submit        "Create entry"
 
 
 ---- datatable ----
-cols       : ID, %%pageid%%, Batch_pagebatch_@@short@@, Substrate_pagesubstrate, Date, Measured, State, Storage
-headers    : ID, Description, Batch, Substrate, Date, Measured, State, Storage
+
+cols       : ID, %%pageid%%, Batch_pagebatch_@@short@@, Container_pagecontainer, Date, Measured, State, Storage
+headers    : ID, Description, Batch, Container, Date, Measured, State, Storage
 filter     : type~Samples_@@short@@
 filter     : %%pageid%%!~*template*
 sort       : ^%%pageid%%

@@ -1,7 +1,7 @@
   * Description = Description
   * Date = Date
   * Batch = Batch (ID)
-  * Cell = Cell (ID)
+  * Container = Container/Rotor/Tube (ID)
   * Tube = Tube (ID)
   * Substrate = Substrate (ID)
   * Concentration = Concentration

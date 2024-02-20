@@ -1,0 +1,19 @@
+~~NOTOC~~
+
+====== Devices ======
+
+
+<WRAP group centeralign>
+
+<WRAP third column>
+<WRAP box round>
+[[.:device1:|{{fa>gear?45}}]] 
+
+===== Device 1 =====
+
+</WRAP>
+</WRAP>
+
+
+</WRAP>
+

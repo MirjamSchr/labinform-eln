@@ -1,0 +1,52 @@
+====== @@Date@@ ======
+
+---- dataentry labbook ----
+type_hidden             : Labbook_@@short@@ # 
+date_hidden             : @@Date@@ # 
+experiment_epr          : @@Experiment@@ # 
+sample                  : @@Sample@@ # 
+sampleno_sa_@@short@@   : @@Samplenumber@@ # 
+solvent                 : - # 
+temperature             : @@Temperature@@ # 
+mas-frequency           : @@MAS-Frequency@@# 
+probehead_nmrprobehead  : @@Probehead@@ # 
+purpose                 : @@Purpose@@ # 
+----
+
+
+===== Protocol =====
+
+  ; xx:xx 
+  : ...
+  ; xx:xx 
+  : ...
+
+
+===== Comments =====
+
+...
+
+
+===== Analysis =====
+
+...
+ 
+<figure>
+<caption>**... .** ...</caption>
+</figure>
+
+
+===== Further plans =====
+
+...
+
+
+===== Documentation =====
+
+<file "" sa@@Samplenumber|@@-01.info>
+</file>
+
+<file "" sa@@Samplenumber|@@-02.info>
+</file>
+
+

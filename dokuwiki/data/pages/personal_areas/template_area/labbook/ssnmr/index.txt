@@ -1,0 +1,14 @@
+====== ssNMR ======
+
+//Overview of all ssNMR measurements//
+
+---- datatable ----
+cols       : %%pageid%%, sample, sampleno_sa_@@short@@, temperature, purpose
+headers    : Details, Sample, No., Temp. / K, Purpose
+filter     : type~Labbook_@@short@@
+filter     : %%pageid%%!~*template*
+filter     : experiment=ssNMR
+sort       : ^date
+dynfilters : 1
+----
+

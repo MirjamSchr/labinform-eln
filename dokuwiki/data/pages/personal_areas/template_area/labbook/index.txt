@@ -9,7 +9,7 @@
 ===== Create new entry =====
 
 <form>
-Action template personal_areas:@@short@@:labbook:template_"@@Experiment@@_@@cweprSpectrometer|@@_@@treprSpectrometer|@@" personal_areas:@@short@@:labbook:@@Experiment@@:<noreplace>@DATE(@@Date@@,%%Y)@:@DATE(@@Date@@,%%m)@</noreplace>:@@id@@
+Action template personal_areas:@@short@@:labbook:template_"@@Experiment@@_@@cweprSpectrometer|@@_@@treprSpectrometer|@@_@@Experiment NMR|@@" personal_areas:@@short@@:labbook:@@Experiment@@:<noreplace>@DATE(@@Date@@,%%Y)@:@DATE(@@Date@@,%%m)@</noreplace>:@@id@@
 Thanks "Thanks for submitting your valuable data."
 labels labels
 
@@ -31,11 +31,26 @@ Fieldset "cwEPR experiment parameters" "Experiment" "cwEPR"
 data_aliastextbox "cweprSpectrometer" _eprspectrometer ="Bruker EMX"
 data_aliastextbox "cweprProbehead" _eprprobehead ="Bruker 4119HS-W1"
 
+Fieldset "ssNMR and DNP experiment parameters" "Experiment" "ssNMR"
+data_aliastextbox "Experiment NMR" _experiment_nmr !
+data_aliastextbox "Probehead" _nmrprobehead 
+textbox           "MAS-Frequency" ="0 kHz"
+
 Fieldset "Submit form"
 thanks            "Thanks for the entry."
 submit            "Create entry"
 </form>
 
+
+===== Overview of measurements =====
+
+---- datatable ----
+cols    : %%pageid%%, sample, sampleno_sa_@@short@@, temperature, mas-frequency, purpose, probehead 
+headers : Details, Sample, No., Temp, MAS,  Purpose, Probehead
+filter  : type~Labbook_@@short@@
+filter  : %%pageid%%!~*template*
+sort    : ^date
+----
 
 ===== Metadata during data acquisition: Infofiles =====
 

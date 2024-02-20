@@ -1,0 +1,31 @@
+~~NOTOC~~
+====== Device 1 ======
+
+
+<WRAP group centeralign>
+
+<WRAP third column>
+<WRAP box round>
+[[.:logbook:|{{fa>book?48}}]] 
+
+===== Logbook =====
+[[.:logbook:|Unusual events, issues and their fixes ]] 
+
+</WRAP>
+</WRAP>
+
+<WRAP third column> 
+<wrap hide> . </wrap>
+</WRAP>
+    
+<WRAP third column>
+<WRAP box round>
+[[.:manuals:|{{fa>leanpub?48}}]] 
+
+===== Manuals =====
+[[.:manuals:|Instructions from the Company or additional self written tips and tricks.]] 
+
+</WRAP>
+</WRAP>
+
+</WRAP>

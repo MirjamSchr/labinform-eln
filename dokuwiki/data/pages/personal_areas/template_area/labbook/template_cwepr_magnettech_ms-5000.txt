@@ -1,11 +1,11 @@
 ====== @@Date@@ ======
 
 ---- dataentry labbook ----
-type_hidden            : Labbook
+type_hidden            : Labbook_@@short@@
 date_hidden            : @@Date@@
 experiment_hidden      : @@Experiment@@
 sample                 : @@Sample|@@
-sampleno_sa_@@short@@           : @@Samplenumber|@@
+sampleno_sa_@@short@@  : @@Samplenumber|@@
 buffer                 : -
 temperature            : @@Temperature@@
 spectrometer           : @@cweprSpectrometer@@

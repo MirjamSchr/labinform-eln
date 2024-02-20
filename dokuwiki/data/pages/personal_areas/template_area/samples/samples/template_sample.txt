@@ -7,8 +7,7 @@ Description             : @@Description@@ #
 Date                    : @@Date@@ # 
 Batch_pagebatch_@@short@@      : @@Batch@@ # 
 Substrate_pagesubstrate : @@Substrate|@@ #
-Cell_pagecell           : @@Cell|@@ #
-Tube_pagetube           : @@Tube|@@ #
+Container_pagecontainer : @@Container|@@ #
 Concentration           : @@Concentration@@ #
 Measured                : @@Measured@@ # 
 State_state             : @@State@@ #
@@ -23,10 +22,10 @@ Storage_storage         : @@Storage@@ #
 ===== Measurements =====
 
 ---- datatable ----
-cols    : %%pageid%%, experiment, purpose
+cols    : %%%%pageid%%%%, experiment, purpose
 headers : ID, Experiment, Purpose
 filter  : type~Labbook_@@short@@
-filter  : %%pageid%%!~*template*
+filter  : %%%%pageid%%%%!~*template*
 filter  : sampleno~@@No@@
 sort    : ^pageid
 ----

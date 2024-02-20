@@ -9,21 +9,21 @@
 Action template :personal_areas:@@short@@:samples:batches:template_batch :personal_areas:@@short@@:samples:batches:@@No@@
 labels labels
 
-Fieldset      "New entry for batches"
-hiddenautoinc "No"
-static        "Necessary fields"
-textbox       "Name"
-textbox       "Substance"
-date          "Date"
-textbox       "Supply source"
+Fieldset            "New entry for batches"
+hiddenautoinc       "No"
+static              "Necessary fields"
+textbox             "Name"
+textbox             "Substance"
+date                "Date"
+textbox             "Supply source"
 static              "Optional fields"
-textbox       "Code" !
-textbox       "Solvent" !
+textbox             "Code" !
+textbox             "Solvent" !
 data_aliastextbox   "State" _state ! =exists
 data_aliastextbox   "Storage" _storage ! =-70°C
-number        "Batch" !
-thanks        "Thanks for your entry."
-submit        "Create entry"
+data_aliastextbox   Batch _pagebatch_@@short@@ !
+thanks              "Thanks for your entry."
+submit              "Create entry"
 </form>
 
 

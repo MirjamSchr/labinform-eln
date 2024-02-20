@@ -1,0 +1,33 @@
+====== Manuals ======
+
+++++ Create new pages |
+
+:!: The pagename is the URL-Part, therefore no spaces please!:!:
+
+<form>
+Action template devices:device1:manuals:template_manual devices:device1:manuals:@@Pagename@@
+
+
+Fieldset          "New entry"
+textbox           "Pagename"
+textbox           "Title"
+
+thanks            "Thanks"
+submit            "Submit"
+</form>
+
+
+
+++++
+
+
+===== Manuals from the manufacturer =====
+
+  * Links to pdfs
+
+
+
+===== Additional manuals =====
+
+
+{{indexmenu>:devices:device1:manuals#1|tsort}}

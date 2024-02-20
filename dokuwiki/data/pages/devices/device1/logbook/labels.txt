@@ -1,0 +1,4 @@
+  * Date = Date
+  * Solution = Solution (if already found)
+  * Category = Category
+  * Device = Part of the device

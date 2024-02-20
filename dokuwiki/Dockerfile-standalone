@@ -24,7 +24,8 @@ RUN cd /srv/www/ \
     && chmod 700 /srv/www/conf/
 
 
-FROM alpine:latest
+FROM alpine:3.18  
+#latest
 
 LABEL Maintainer="Till Biskup <docker@till-biskup.de>"
 LABEL Description="Alpine-based container running DokuWiki-based LabInform ELN using nginx as non-privileged user."

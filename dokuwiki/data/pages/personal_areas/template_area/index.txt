@@ -9,9 +9,10 @@
 
 
   * Feld-Aliasse
-    * sa_@@short@@ -> :personal_areas:@@short@@:samples:samples:{URL}
-    * ba
+    * sa_@@short@@ -> :personal_areas:@@short@@:samples:samples:
+    * pagebatch_@@short@@ -> personal_areas:@@short@@:samples:batches:
   * Template includes: 
     * personal:areas:@@short@@:** personal_areas:@@short@@:areas At the bottom of the sidebar
   * Hauptseite des Lab Notebook: 
-    * Im Formular ''<noreplace>1970:01</noreplace>'' durch ''@ DATE(@@ Date@@,%%Y)@:@ DATE(@@ Date@@,%%m)@'' (ohne Leerzeichen!) ersetzen
+    * Im Formular ''<noreplace>1970:01</noreplace>'' bzw ''1970:01'' durch ''@ DATE(@@ Date@@,%%Y)@:@ DATE(@@ Date@@,%%m)@'' (ohne Leerzeichen!) ersetzen
+    * Zum Schluss sollte da stehen: ''Action template personal_areas:@@short@@:labbook:template_"@@Experiment@@_@@cweprSpectrometer|@@_@@treprSpectrometer|@@" personal_areas:@@short@@:labbook:@@Experiment@@:@ DATE(@@Date@@,%%Y)@:@ DATE(@@Date@@,%%m)@:@@id@@''
